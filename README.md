@@ -33,3 +33,35 @@ root/
       ├─ main.tf       # VPC, subnets, NAT, and route tables
       ├─ variables.tf  # Module input variables
       └─ outputs.tf    # Module outputs
+
+## How to Use
+
+1.  **Clone the repository:**
+    ```bash
+    git clone <your-repo-url>
+    cd <repo-folder>
+    ```
+
+2.  **Initialize Terraform:**
+    This downloads the required providers and initializes the backend.
+    ```bash
+    terraform init
+    ```
+
+3.  **Review the planned infrastructure:**
+    Run a plan to see what changes Terraform will make before applying them.
+    ```bash
+    terraform plan
+    ```
+
+4.  **Apply the Terraform configuration:**
+    Confirm the changes to create the infrastructure.
+    ```bash
+    terraform apply
+    ```
+
+5.  **Destroy resources when no longer needed:**
+    To clean up and remove all resources created by this project:
+    ```bash
+    terraform destroy
+    ```
