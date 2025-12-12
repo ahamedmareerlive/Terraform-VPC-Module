@@ -16,6 +16,7 @@ This Terraform project creates a **fully configured AWS Virtual Private Cloud (V
 * Creates **public and private route tables** and associates them with their respective subnets.
 * Supports **custom naming** of VPC, subnets, NAT gateway, and route tables via `terraform.tfvars`.
 * Modular design allows the VPC module to be **reused across multiple projects**.
+![ss of vpc](https://github.com/user-attachments/assets/d5040174-5d79-4e96-9638-ec643e11e38e)
 
 ---
 
