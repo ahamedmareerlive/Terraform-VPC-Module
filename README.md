@@ -33,7 +33,7 @@ root/
       ├─ main.tf       # VPC, subnets, NAT, and route tables
       ├─ variables.tf  # Module input variables
       └─ outputs.tf    # Module outputs
-
+```
 ## How to Use
 
 1.  **Clone the repository:**
